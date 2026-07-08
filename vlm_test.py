@@ -50,3 +50,7 @@ generated_texts = processor.batch_decode(generated_ids, skip_special_tokens=True
 # 7. 結果の表示
 print("\n=== AIからの回答 ===")
 print(generated_texts[0])
+
+print("\n=== modelの中身 ===")
+print(model)
+
